@@ -1,0 +1,90 @@
+
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Alexander Bedrosyan</title>
+    <link href="{% static '/css/main.css' %}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-body" id="profile-wrapper">
+                    <img id="profile-pic" src="{% static 'images/alexanderbedrosyan.png' %}" >
+                    <hr>
+                    <h4>Hi I'm Alexander!</h4>
+                    <p>I’m interested in programming, accounting, finance and math</p>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="card card-body">
+                    <h4>I'm currently learning Python Advanced and OOP in SoftUni Bulgaria</h4>
+                    <hr>
+                    <p> The main goal when I was starting with the programming was to learn just Basic course and then to continue
+                    with Data Analysis. This was happened in the beginning of January (2023), but only two months later I
+                    was fully inloved in Python. In the end of July I was finished with Fundamentals and already added more than 15 projects in my CV. </p>
+                    <p>Nowadays, I am continue learning not only the concepts in the course but I am
+                    looking for more and more challenges.</p>
+                    <p> This website is part of my new challenge to make my first project with Django. Part of the html and css
+                    codes here are just copied because they are in my future plans for learn.</p>
+
+                    <ul class="social-links">
+						<li><img class="social" src="{% static 'images/facebook.jpg' %}"></li>
+						<li><img class="social" src="{% static 'images/linkedin.png' %}"></li>
+						<li><img class="social" src="{% static 'images/github.png' %}"></li>
+					</ul>
+
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body">
+                    <h5>My Experience as a Developer</h5>
+                    <hr>
+                    <p>I am still looking for my first internship</p>
+                    <p>For now I was working only on one personal work project, for comparing account balances by using Excel sheets.
+                    One of the other project that I have already taken a part was for a game. Unfortunately I wasn't so involved in pygame
+                    and I was only helped with the menu of it. The main logic was created by a colleague from SoftUni, but he is 2 courses above
+                    my knowledge.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body">
+                    <h5>What I Know</h5>
+					<hr>
+					<p>Python, Django, Tkinter, turtle and pygame. Some note on the last two of the list - I am not so good in them.</p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body">
+                    <h5>How I Learn</h5>
+					<hr>
+					<p>By courses in SoftUni and by self-preparation. Using literature from stackoverflow, a lot of books and videos.
+                    Every day, I communicate with my teachers, colleagues and friends in the Programming area, which help me to develop my abilities.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body">
+                    <h5>My Short Term Goals</h5>
+				    <hr>
+				    <p>First I should finish the course stage in SoftUni, then I was hoping that I would be prepared with the web
+                    knowledge also, which will give me a chance to find my first internship in Programming area.</p>
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+
+
+
+</body>
+</html>
